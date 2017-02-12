@@ -1,0 +1,188 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="pt"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="pt"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Morbilidade - Instruções</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/css/normalize.min.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+        <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <nav style="border-top-width:16px;border-top-style:solid;color:#B3B3B3">
+                    <ul>
+                        <li><a style="padding-top:5px;padding-bottom:5px" href="/"><img src="/img/logo_morbilidade_2.png" alt="logo" style="width:60px;height:60px"/></a></li>
+                        <li><a style="padding-top:22px;padding-bottom:22px" href="/morbilidade/">MORBILIDADE</a></li>
+						<li><a style="padding-top:22px;padding-bottom:22px" href="/instrucoes/">Instruções</a></li>
+						<li><a style="padding-top:9px;padding-bottom:9px" href="/codigoR/">Código<br><img src="/img/logo_R.png" alt="R" style="width:auto;height:20px" /></a></li>
+						<li><a style="padding-top:9px;padding-bottom:9px" href="/documentacao/">Documentação<br>metodológica</a></li>
+						<li><a style="padding-top:22px;padding-bottom:22px" href="/autores/">Autores</a></li>
+					</ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article style="width:100%">
+                    <header>
+						<h1 style="text-align:left;color:#274481">Instruções de utilização</h1>
+                    </header>
+                    <section>
+                        <p style="text-align:justify">A ferramenta <a href="/morbilidade/" style="text-decoration:none">MORBILIDADE</a> pode ser consultada no segundo separador desta página ou através do link <a href="/morbilidade/" style="text-decoration:none">morbilidade.github.io</a>.</p>
+						<img src="/img/gif_01.gif" alt="gif_01" style="width:600px;height:auto;border:0">
+						<br>
+						<br>
+						</section>
+						<section>
+						<h2>Opções de consulta</h2>
+						<p style="text-align:justify">A ferramenta permite a consulta da informação segundo seguintes opções:</p>
+						<h3>Nível da análise:</h3>
+						<ul>
+						<li>Nível 1: Componentes (agrupamentos de doenças)</li>
+						<li>Nível 2: Classes (combinações de doenças)</li>
+						<img src="/img/gif_02.gif" alt="gif_02" style="width:600px;height:auto;border:0">
+						</ul>
+						<h3>Região geográfica:</h3>
+						<ul>
+						<li>Portugal</li>
+						<li>Cada uma das sete NUTS II:</li>
+						<ol>
+						<li>Norte</li>
+						<li>Centro</li>
+						<li>Lisboa</li>
+						<li>Alentejo</li>
+						<li>Algarve</li>
+						<li>Região Autónoma dos Açores</li>
+						<li>Região Autónoma da Madeira</li>
+						</ol>
+						<img src="/img/gif_03.gif" alt="gif_03" style="width:600px;height:auto;border:0">
+						</ul>
+						<h3>Indicador de morbilidade (considerado no modelo como <i>outcome</i>):</h3>
+						<ol>
+						<li>Autoapreciação negativa do estado de saúde</li>
+						<li>Absentismo laboral (em indivíduos empregados)</li>
+						<li>Dificuldade funcional física</li>
+						<li>Dificuldade nos cuidados pessoais (>65 anos)</li>
+						<li>Dificuldade em atividades domésticas (>65 anos)</li>
+						<li>Intensidade da dor</li>
+						<li>Interferência da dor nas tarefas habituais</li>
+						<li>Internamento hospitalar</li>
+						<li>Cuidados hospitalares de ambulatório</li>
+						<li>Consulta de medicina geral e familiar</li>
+						<li>Consulta de outra especialidade médica</li>
+						<li>Consumo de medicamentos prescritos</li>
+						<li>Consumo de medicamentos não prescritos</li>
+						<li>Despesa com cuidados de saúde</li>
+						<img src="/img/gif_04.gif" alt="gif_04" style="width:600px;height:auto;border:0">
+						</ol>
+						<h3>Apresentação gráfica dos resultados ajustados para:</h3>
+						<ul>
+						<li>Confundidores e componentes</li>
+						<li>Apenas confundidores</li>
+						<img src="/img/gif_05.gif" alt="gif_05" style="width:600px;height:auto;border:0">
+						</ul>
+						<br>
+						</section>
+						<section>
+						<h2>Representação gráfica</h2>
+						<p style="text-align:justify">Os resultados são apresentados graficamente numa representação semelhante a um <i>slopegraph</i> / diagramas de setas, comparando a hierarquia dos componentes ou classes para a medida de associação <i>"individual"</i> calculada (razão de prevalência) e a medida de impacto <i>"populacional"</i> (fração atribuível populacional).</p>
+						<img src="/img/gif_06.gif" alt="gif_06" style="width:600px;height:auto;border:0">
+						<p style="text-align:justify">Poderá ainda ser seleccionado o <i>ranking</i> a representar graficamente:</p>
+						<img src="/img/gif_07.gif" alt="gif_07" style="width:600px;height:auto;border:0">
+						<br>
+						<br>
+						</section>
+						<section>
+						<h2>Representação tabelar</h2>
+						<p style="text-align:justify">São também disponibilizados todos os resultados calculados relativos às opções selecionadas, em formato de tabela.</p>
+						<img src="/img/gif_08.gif" alt="gif_08" style="width:600px;height:auto;border:0">
+						<br>
+						<br>
+						</section>
+						<section>
+						<h2>Exemplos</h2>
+						<p>De seguida apresentam-se dois exemplos de consulta da ferramenta <a href="/morbilidade/" style="text-decoration:none">MORBILIDADE</a>.</p>
+						<br>
+						<h4>Dificuldade nos cuidados pessoais (>65 anos) em Portugal</h4>
+						<p>Nível 1: Componentes (agrupamentos de doenças)</p>
+						<img src="/img/gif_09.gif" alt="gif_09" style="width:600px;height:auto;border:0">
+						<br>
+						<br>
+						<h4>Autoapreciação negativa do estado de saúde na região do Norte</h4>
+						<p>Nível 2: Classes (combinações de doenças)</p>
+						<img src="/img/gif_10.gif" alt="gif_10" style="width:600px;height:auto;border:0">
+						<br>
+						<br>
+						</section>
+						<section>
+						<br>
+						<p style="text-align:justify">Para mais informações pode contactar os autores para o endereço electrónico: morbilidade@gmail.com <a href="mailto:morbilidade@gmail.com" style="text-decoration:none">&#x2709;</a>.</p>
+						<br>
+                    </section>
+                </article>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+			<div>
+			<a href="http://ispup.up.pt/" style="color:#B3B3B3">
+			<img src="/img/logo_ispup.svg" alt="ISPUP" style="width:auto;height:35px;border:0;margin-right:60px;margin-top:5px;margin-bottom:5px">
+			</a>
+			<a href="http://www.portugal.gov.pt/" style="color:#B3B3B3">
+			<img src="/img/logo_rp.svg" alt="RP" style="width:auto;height:35px;border:0;margin-right:30px;margin-top:5px;margin-bottom:5px">
+			</a>
+			</a>
+			<a href="https://www.sns.gov.pt/" style="color:#B3B3B3">
+			<img src="/img/logo_sns.svg" alt="SNS" style="width:auto;height:35px;border:0;margin-right:30px;margin-top:5px;margin-bottom:5px">
+			</a>
+			</a>
+			<a href="http://www.arsnorte.min-saude.pt/" style="color:#B3B3B3">
+			<img src="/img/logo_arsn.svg" alt="ARSN" style="width:auto;height:35px;border:0;margin-right:30px;margin-top:5px;margin-bottom:5px">
+			</a>
+			</a>
+			<a href="http://acesportoocidental.org/pt/" style="color:#B3B3B3">
+			<img src="/img/logo_aces.svg" alt="ACES" style="width:auto;height:35px;border:0;margin-right:30px;margin-top:5px;margin-bottom:5px">
+			</a>
+			</a>
+			<a href="http://acesportoocidental.org/pt/unidade-de-saude-publica" style="color:#B3B3B3">
+			<img src="/img/logo_usp.svg" alt="USP" style="width:auto;height:35px;border:0;margin-right:30px;margin-top:5px;margin-bottom:5px">
+			</a>
+			</div>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="/js/main.js"></script>
+
+        <!-- Google Analytics. -->
+        <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-91856044-1', 'auto');
+		ga('send', 'pageview');
+		
+		</script>
+    </body>
+</html>
