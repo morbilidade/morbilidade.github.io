@@ -132,8 +132,9 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 3% 10px;
     font-weight: normal;
+    font-size: 80%;
 }
 
 .footer-container footer {
@@ -186,7 +187,25 @@ nav a:hover {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+    nav a {
+        float: left;
+        width: 30%;
+        margin: 0 1%;
+        padding: 25px 0%;
+        margin-bottom: 1%;
+    }
+    
+    nav li:first-child a {
+        margin-left: 1%;
+    }
+    
+    nav li:last-child a {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 900px) {
     /* ====================
     WIDE: CSS3 Effects
        ==================== */
@@ -214,12 +233,12 @@ nav a:hover {
        ============ */
     .main article {
         float: left;
-        width: 57%;
+        width: 60%;
     }
     
     .main aside {
         float: right;
-        width: 28%;
+        width: 30%;
     }
 }
 
