@@ -6,12 +6,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #274481;
+    background: #b0cffe;
     text-shadow: none;
 }
 
 ::selection {
-    background: #274481;
+    background: #b0cffe;
     text-shadow: none;
 }
 
